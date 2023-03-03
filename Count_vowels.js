@@ -47,6 +47,6 @@ let count = (nm) => {
 
     }
 
-    return count;
+    return count
 }
 console.log(count("revannath"));
