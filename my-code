@@ -1,0 +1,66 @@
+  <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <title>Document</title>
+
+       <style>
+          body{
+             background-color: black;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             height: 100vh;
+     }
+     
+     .apple {
+        background: #C0C0C0;
+        position: absolute;
+        height: 198px;
+        width: 208px;
+        border-radius: 35% 35% 41% 41% / 42% 42% 75% 75%;
+        border-bottom: 0.5;
+    }
+
+                  .apple::before{
+                      background: #C0C0C0;
+                      content: '';
+                      position: absolute;
+                      width: 55px;
+                      height: 55px;
+                      margin: -51px 0 0 100px;
+                      border-radius: 100px 0;
+                      z-index: 5;
+        
+
+
+    }
+    .apple::after {
+        background: black;
+        content: '';
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        margin: 28px 0 0 174px;
+        border-radius: 50%;
+        transform: rotate (-53deg);
+        z-index: 4;
+        box-shadow: -127px -109.5px 0 black,
+        -118px -107px 0 black,
+        -115.5px -102.5px 0 black,
+        -105px -109.5px 0 black,
+        -129px 165px 0 black,
+        -107.5px 165px 0 black,
+        -119px 161px 0 black;
+
+    
+    }
+
+      
+                 </style>
+               <head>
+             <div class="apple"></div>
+           </body>
+         </html>
